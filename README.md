@@ -61,10 +61,11 @@ The natural_stats function computes statistics for natural features (e.g., parks
 
 **Example:**
 
+```python
 from urbanalize import natural_stats
 
 natural_stats("Rome")
-
+```
 **Expected Output:**
 The function will display statistics similar to:
 
