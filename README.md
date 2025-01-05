@@ -69,6 +69,7 @@ natural_stats("Rome")
 **Expected Output:**
 The function will display statistics similar to:
 
+```sql
 Thank you for using this function!
 Extracting natural statistics for the city of Rome might take a few minutes.
 Natural statistics for the city of Rome are ready:
@@ -76,6 +77,8 @@ Natural statistics for the city of Rome are ready:
    park           15.421        3.12
    water           5.672        1.15
    ...
+```
+
 The simplicity of providing only a city name and obtaining detailed statistics makes Urbanalize a powerful tool for urban analysis.
 
 ---
