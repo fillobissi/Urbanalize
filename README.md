@@ -101,4 +101,4 @@ Urbanalize heavily relies on the following libraries:
 
 Urbanalize is an experimental tool designed to simplify urban analysis. In the future, it would be fantastic to extend its capabilities to provide fast and comprehensive urban statistics not only from OpenStreetMap but also by integrating data from other organizations and sources. The vision is to create a versatile platform where urban data can be accessed and analyzed with ease, offering valuable insights to researchers, planners, and developers.
 
-If you are interested in contributing to this project, please visit the [Contributing](CONTRIBUTING.md) page and follow the provided guidelines. Any contribution, whether big or small, is incredibly valuable and highly appreciated. Your support can help shape the future of this tool and expand its utility for a wider audience.
+If you are interested in contributing to this project, please visit the [CONTRIBUTING](CONTRIBUTING.md) page and follow the provided guidelines. Any contribution, whether big or small, is incredibly valuable and highly appreciated. Your support can help shape the future of this tool and expand its utility for a wider audience.
