@@ -1,6 +1,6 @@
 # Contributing to Urbanalize
 
-Thank you for considering contributing to **Urbanalize**! Your help is greatly appreciated, and together we can make this library better for everyone.
+Thank you for considering contributing to **Urbanalize**! Your help is greatly appreciated, and together we can make this library better for everyone, since there is still a lot to do!
 
 This document outlines the contribution process to help ensure a smooth and consistent workflow.
 
@@ -30,6 +30,7 @@ Click the "Fork" button in the top-right corner of this repository to create a c
 Clone the repository to your local machine using:
 ```bash
 git clone https://github.com/your-username/Urbanalize.git
+```
 
 #### Step 3: Create a Branch
 Create a new branch for your contribution:
