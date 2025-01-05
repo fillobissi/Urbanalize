@@ -18,3 +18,8 @@ venv/
 # Ignore system-specific files
 .DS_Store
 Thumbs.db
+
+# Ignora build e output temporanei
+/build/
+/html/
+*.bak
