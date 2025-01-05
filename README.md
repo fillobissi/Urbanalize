@@ -1,6 +1,6 @@
 # Urbanalize
 
-Urbanalize is a Python library for geospatial analysis of cities using OpenStreetMap data. The library provides tools to compute statistics on road networks and natural areas within a city, enabling detailed analysis of urban infrastructure and natural resources.
+Urbanalize is a Python library for geospatial analysis of cities using OpenStreetMap data. The library provides tools to compute statistics on road networks and natural areas within a city, enabling detailed analysis of urban infrastructure and natural resources. The library have been implemented by Filippo Bissi.
 
 ---
 
@@ -22,14 +22,14 @@ Urbanalize is a Python library for geospatial analysis of cities using OpenStree
 
 ### Prerequisites
 - **Python 3.10 or higher**
-- Required Python libraries:
+- **Required Python libraries:**
   - `osmnx`
   - `geopandas`
   - `requests`
   - `shapely`
 
 ### Install Dependencies
-The easiest way to set up the environment is by using the provided `environment.yml` file. Run the following command:
+The easiest way to set up the environment is by using the provided `environment.yml` file. Run the following command in the Anaconda prompt:
 ```bash
 conda env create -f environment.yml
 ```
