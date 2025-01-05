@@ -75,6 +75,8 @@ Natural statistics for the city of Rome are ready:
    ...
 The simplicity of providing only a city name and obtaining detailed statistics makes Urbanalize a powerful tool for urban analysis.
 
+---
+
 ## Acknowledgements
 Urbanalize heavily relies on the following libraries:
 
