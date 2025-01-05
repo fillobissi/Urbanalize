@@ -32,7 +32,7 @@ Urbanalize is a Python library for geospatial analysis of cities using OpenStree
 The easiest way to set up the environment is by using the provided `environment.yml` file. Run the following command:
 ```bash
 conda env create -f environment.yml
-
+```
 ---
 
 ## Usage
@@ -41,11 +41,11 @@ Urbanalize makes it simple to analyze urban areas. Just provide the name of a ci
 ### 1. Calculate Road Statistics
 The road_stats function computes detailed statistics on road networks for a given city.
 
-Example:
+**Example:**
 from urbanalize import road_stats
 road_stats("Milan")
 
-Expected Output:
+**Expected Output:**
 The function will display statistics similar to:
 
 Thank you for using this function!
@@ -59,11 +59,11 @@ Road statistics for the city of Milan are ready:
 ### 2. Calculate Natural Statistics
 The natural_stats function computes statistics for natural features (e.g., parks, water) in a city.
 
-Example:
+**Example:**
 from urbanalize import natural_stats
 natural_stats("Rome")
 
-Expected Output:
+**Expected Output:**
 The function will display statistics similar to:
 
 Thank you for using this function!
@@ -78,5 +78,5 @@ The simplicity of providing only a city name and obtaining detailed statistics m
 ## Acknowledgements
 Urbanalize heavily relies on the following libraries:
 
-- osmnx: A Python package that simplifies the acquisition and analysis of street networks and other geospatial data from OpenStreetMap.
-- requests: A simple and elegant HTTP library for Python, used for querying the Overpass API to retrieve geospatial data. I extend special thanks to the developers of these libraries for making tools like Urbanalize possible.
+- `osmnx`: A Python package that simplifies the acquisition and analysis of street networks and other geospatial data from OpenStreetMap.
+- `requests`: A simple and elegant HTTP library for Python, used for querying the Overpass API to retrieve geospatial data. I extend special thanks to the developers of these libraries for making tools like Urbanalize possible.
