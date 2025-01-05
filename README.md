@@ -42,12 +42,17 @@ Urbanalize makes it simple to analyze urban areas. Just provide the name of a ci
 The road_stats function computes detailed statistics on road networks for a given city.
 
 **Example:**
+
+```python
 from urbanalize import road_stats
+
 road_stats("Milan")
+```
 
 **Expected Output:**
 The function will display statistics similar to:
 
+```sql
 Thank you for using this function!
 Extracting road statistics for the city of Milan might take a few minutes.
 Road statistics for the city of Milan are ready:
@@ -55,6 +60,7 @@ Road statistics for the city of Milan are ready:
    primary          120.5             2.14
    residential       430.8             7.62
    ...
+```
 
 ### 2. Calculate Natural Statistics
 The natural_stats function computes statistics for natural features (e.g., parks, water) in a city.
