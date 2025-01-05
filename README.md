@@ -60,7 +60,9 @@ Road statistics for the city of Milan are ready:
 The natural_stats function computes statistics for natural features (e.g., parks, water) in a city.
 
 **Example:**
+
 from urbanalize import natural_stats
+
 natural_stats("Rome")
 
 **Expected Output:**
