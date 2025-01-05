@@ -1,32 +1,82 @@
-# Contributing to Urbanalize
+# Urbanalize
 
-Thank you for considering contributing to **Urbanalize**! Your help is greatly appreciated, and together we can make this library better for everyone.
-
-This document outlines the contribution process to help ensure a smooth and consistent workflow.
+Urbanalize is a Python library for geospatial analysis of cities using OpenStreetMap data. The library provides tools to compute statistics on road networks and natural areas within a city, enabling detailed analysis of urban infrastructure and natural resources.
 
 ---
 
-## How Can I Contribute?
+## Features
 
-### 1. Reporting Bugs
-If you encounter a bug, please open an issue in the repository. Make sure to include:
-- A clear and descriptive title.
-- Steps to reproduce the issue.
-- Expected and actual behavior.
-- The Python version and operating system you are using.
+### 1. **Road Statistics** (`road_stats`)
+- Calculates road length and density statistics for a specific city.
+- Groups roads by categories (e.g., "residential", "primary").
+- Computes the total length of roads and the density (km of roads per km² of city area).
 
-### 2. Suggesting Enhancements
-If you have an idea to improve the library, feel free to:
-- Open an issue describing the feature or enhancement.
-- Provide as much detail as possible to explain why the feature is valuable.
+### 2. **Natural Features Statistics** (`natural_stats`)
+- Analyzes natural features (e.g., parks, water bodies) within a city.
+- Calculates the total area for each type of natural feature.
+- Determines the relative density of each type of natural feature as a percentage of the city's total area.
 
-### 3. Contributing Code
-We welcome pull requests to add new features, fix bugs, or improve the documentation. Here's how you can contribute:
+---
 
-#### Step 1: Fork the Repository
-Click the "Fork" button in the top-right corner of this repository to create a copy of it in your GitHub account.
+## Installation
 
-#### Step 2: Clone Your Fork
-Clone the repository to your local machine using:
+### Prerequisites
+- **Python 3.10 or higher**
+- Required Python libraries:
+  - `osmnx`
+  - `geopandas`
+  - `requests`
+  - `shapely`
+
+### Install Dependencies
+The easiest way to set up the environment is by using the provided `environment.yml` file. Run the following command:
 ```bash
-git clone https://github.com/your-username/Urbanalize.git
+conda env create -f environment.yml
+
+---
+
+## Usage
+Urbanalize makes it simple to analyze urban areas. Just provide the name of a city, and the library does the rest. Below are examples of how to use the key functions.
+
+### 1. Calculate Road Statistics
+The road_stats function computes detailed statistics on road networks for a given city.
+
+Example:
+from urbanalize import road_stats
+road_stats("Milan")
+
+Expected Output:
+The function will display statistics similar to:
+
+Thank you for using this function!
+Extracting road statistics for the city of Milan might take a few minutes.
+Road statistics for the city of Milan are ready:
+   category      length (km)  density (km/km²)
+   primary          120.5             2.14
+   residential       430.8             7.62
+   ...
+
+### 2. Calculate Natural Statistics
+The natural_stats function computes statistics for natural features (e.g., parks, water) in a city.
+
+Example:
+from urbanalize import natural_stats
+natural_stats("Rome")
+
+Expected Output:
+The function will display statistics similar to:
+
+Thank you for using this function!
+Extracting natural statistics for the city of Rome might take a few minutes.
+Natural statistics for the city of Rome are ready:
+   type        area_km2  density (%)
+   park           15.421        3.12
+   water           5.672        1.15
+   ...
+The simplicity of providing only a city name and obtaining detailed statistics makes Urbanalize a powerful tool for urban analysis.
+
+## Acknowledgements
+Urbanalize heavily relies on the following libraries:
+
+- osmnx: A Python package that simplifies the acquisition and analysis of street networks and other geospatial data from OpenStreetMap.
+- requests: A simple and elegant HTTP library for Python, used for querying the Overpass API to retrieve geospatial data. I extend special thanks to the developers of these libraries for making tools like Urbanalize possible.
