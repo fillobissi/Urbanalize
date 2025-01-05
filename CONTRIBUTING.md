@@ -50,3 +50,7 @@ Push your changes to your forked repository
 Go to the original repository and open a pull request (PR) from your branch. Be sure to:
 - Provide a detailed description of the changes.
 - Reference any related issues
+  
+---
+
+### Thank you very much for your contribution!
