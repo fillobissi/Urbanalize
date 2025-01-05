@@ -94,3 +94,11 @@ Urbanalize heavily relies on the following libraries:
 
 - `osmnx`: A Python package that simplifies the acquisition and analysis of street networks and other geospatial data from OpenStreetMap.
 - `requests`: A simple and elegant HTTP library for Python, used for querying the Overpass API to retrieve geospatial data. I extend special thanks to the developers of these libraries for making tools like Urbanalize possible.
+
+---
+
+## Further Implementations
+
+Urbanalize is an experimental tool designed to simplify urban analysis. In the future, it would be fantastic to extend its capabilities to provide fast and comprehensive urban statistics not only from OpenStreetMap but also by integrating data from other organizations and sources. The vision is to create a versatile platform where urban data can be accessed and analyzed with ease, offering valuable insights to researchers, planners, and developers.
+
+If you are interested in contributing to this project, please visit the [Contributing](CONTRIBUTING.md) page and follow the provided guidelines. Any contribution, whether big or small, is incredibly valuable and highly appreciated. Your support can help shape the future of this tool and expand its utility for a wider audience.
