@@ -58,7 +58,7 @@ Extracting road statistics for the city of Milan might take a few minutes.
 Road statistics for the city of Milan are ready:
    category      length (km)  density (km/km²)
    primary          120.5             2.14
-   residential       430.8             7.62
+   residential      430.8             7.62
    ...
 ```
 
