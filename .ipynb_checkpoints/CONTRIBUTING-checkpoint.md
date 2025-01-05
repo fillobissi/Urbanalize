@@ -34,18 +34,6 @@ git clone https://github.com/your-username/Urbanalize.git
 #### Step 3: Create a Branch
 Create a new branch for your contribution:
 
-#### Step 4: Make Changes
-- Implement your changes in the code.
-- Add or update tests in the tests directory, if applicable.
-- Run the tests to ensure your changes don't introduce any issues
-
-#### Step 5: Commit Changes
-Commit your changes with a meaningful message
-
-#### Step 6: Push Changes
-Push your changes to your forked repository
-
-#### Step 7: Create a Pull Request
-Go to the original repository and open a pull request (PR) from your branch. Be sure to:
-- Provide a detailed description of the changes.
-- Reference any related issues
+bash
+Kodu kopyala
+git checkout -b feature/your-feature-name
